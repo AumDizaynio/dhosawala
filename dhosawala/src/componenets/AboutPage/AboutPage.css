@@ -1,13 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  .image{
-      display: flex;
-      justify-content: center;
-      padding-bottom: 90px;
-    .map{
+  .image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+    .map {
       width: 100%;
       max-width: 1230px;
       height: auto;
@@ -16,6 +16,4 @@
       padding-right: 2%;
     }
   }
-
 }
-

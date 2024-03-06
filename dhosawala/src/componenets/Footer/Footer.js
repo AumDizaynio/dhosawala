@@ -1,10 +1,11 @@
 import React from 'react'
-import Call from '../../icons/Call'
+
 import Instagram from '../../icons/Instagram'
 import X from '../../icons/X'
-import Fb from '../../icons/Fb'
-import "../Footer/Footer.scss"
+
+import './Footer.scss'
 import ImageBunch from '../../assets/ImageBunch.png'
+import { Call, Fb } from '../../icons'
 
 const Footer = () => {
     return (
@@ -44,7 +45,7 @@ const Footer = () => {
                         <h3 className='tags' >Social Media</h3>
                         <div className="I4-child">
                             <div>
-                                <p><Fb /></p>
+                                <p><Fb/></p>
                                 <span>Facebook</span>
                             </div>
                             <div>
@@ -56,7 +57,7 @@ const Footer = () => {
                                 <span>instagram </span>
                             </div>
                             <div>
-                                <p><Call /></p>
+                                <p><Call/></p>
                                 <span>8510957376</span>
                             </div>
                         </div>
