@@ -8,7 +8,6 @@
 
     .container {
         display: flex;
-        display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 135px;
@@ -30,11 +29,7 @@
         .text {
 
             width: 45%;
-
-            display: flex;
-            flex-direction: column;
-            gap: 23px;
-            align-items: start;
+            height: auto;
 
 
             h2 {
@@ -45,6 +40,7 @@
                 font-weight: 400;
                 line-height: normal;
                 text-transform: capitalize;
+                margin-bottom: 26px;
             }
 
             h1 {
@@ -54,13 +50,15 @@
                 font-style: normal;
                 font-weight: 800;
                 line-height: normal;
+                margin-bottom: 26px;
+                width: 100%;
             }
 
             .image2 {
                 display: none;
             }
 
-            p {
+            .para {
 
                 color: #6F6F6F;
                 font-family: Nunito;
@@ -68,20 +66,37 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130.5%;
+                margin-bottom: 18px;
                 /* 20.88px */
             }
-            .KnowMore{
-                background-color: red;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                margin-top: 32px;
+
+                .KnowMore {
+                    color: #086C30;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 131.5%;
+                    /* 18.41px */
+                    letter-spacing: -0.28px;
+                    padding-right: 7px;
+                }
             }
         }
     }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 789px) {
 
 
     .main {
-       
+
 
         .container {
             display: flex;
@@ -103,7 +118,7 @@
                 flex-direction: column;
                 gap: 23px;
                 align-items: center;
-                
+
 
 
                 h2 {
@@ -132,7 +147,7 @@
                     justify-content: center;
                     width: 100%;
                     height: auto;
-    
+
 
                     img {
                         justify-content: center;
@@ -154,7 +169,8 @@
                     padding-right: 10.46%;
                     /* 20.88px */
                 }
-                .KnowMore{
+
+                .KnowMore {
                     background-color: red;
                 }
             }
@@ -237,7 +253,7 @@
                 /* 20.88px */
             }
 
-            .KnowMore{
+            .KnowMore {
                 background-color: red;
             }
         }
@@ -319,7 +335,7 @@
                     /* 20.88px */
                 }
 
-                .KnowMore{
+                .KnowMore {
                     background-color: red;
                 }
             }

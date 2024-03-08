@@ -1,5 +1,6 @@
 import React from "react";
-import "../ImageComponent/ImageComponent.scss";
+import "./ImageComponent.scss";
+import { GreaterArrow } from "../../icons";
 
 const ImageComponent = (props) => {
 
@@ -15,16 +16,24 @@ const ImageComponent = (props) => {
           <div className="image2">
             <img src={props.logoImage} alt="" />
           </div>
-          <p>
+          <p className="para">
             {props.d1}
-            <br /> <br />
+          </p>
+          <p className="para">
             {props.d2}
-            <br /> <br />
+          </p>
+          <p className="para">
             {props.d3}
-            <br /> <br />
+          </p>
+          <p className="para">
             {props.d4}
           </p>
-          <p className="KnowMore">{props.KnowMore}</p>
+          <div>
+            <p className="KnowMore">{props.KnowMore}</p>
+            <GreaterArrow/>
+            <GreaterArrow/>
+            <GreaterArrow/>
+          </div>
         </div>
       </div>
     </div>

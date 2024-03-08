@@ -9,7 +9,6 @@ import { Call, Fb } from '../../icons'
 
 const Footer = () => {
     return (
-        <>
             <div className="main">
 
                 <div className="footer">
@@ -68,7 +67,6 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </>
     )
 }
 

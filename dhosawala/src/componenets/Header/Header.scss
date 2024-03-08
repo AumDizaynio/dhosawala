@@ -40,7 +40,8 @@
 
             &:hover {
                 padding-bottom: 3px;
-                border-bottom-style: solid;
+                border-bottom: 2px solid white;
+
 
             }
         }
@@ -51,33 +52,14 @@
     }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 789px) {
     .Header {
-        display: flex;
-        width: 100%;
-        background-color: #FCFBEF;
-        justify-content: space-between;
-        height: 114px;
-        align-items: center;
-        padding-left: 9.88%;
-        padding-right: 10.10%;
-        margin-bottom: 32px;
 
-        .logo {
-            svg {
-                width: 67.992px;
-                height: 71.769px;
-                flex-shrink: 0;
-            }
-        }
 
 
         ul {
-            width: 43%;
-            // max-width: 468px ;
+
             display: none;
-            list-style: none;
-            justify-content: space-between;
 
         }
 

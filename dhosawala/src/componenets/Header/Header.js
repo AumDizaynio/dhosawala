@@ -5,7 +5,7 @@ import { Hamburger, Logo } from '../../icons'
 
 
 const Header = () => {
-    return (<>
+    return (
 
 
         <div className='Header'>
@@ -18,7 +18,6 @@ const Header = () => {
             </ul>
             <div className='menu'><Hamburger/></div>
         </div>
-    </>
     )
 }
 
