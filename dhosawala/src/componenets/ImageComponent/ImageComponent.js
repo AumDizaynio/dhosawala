@@ -28,7 +28,7 @@ const ImageComponent = (props) => {
           <p className="para">
             {props.d4}
           </p>
-          <div>
+          <div className="KM">
             <p className="KnowMore">{props.KnowMore}</p>
             <GreaterArrow/>
             <GreaterArrow/>

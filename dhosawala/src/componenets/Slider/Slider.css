@@ -1,11 +1,98 @@
-<link
-  rel="stylesheet"
-  type="text/css"
-  charset="UTF-8"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-/>
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-/>
+.mainc {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  .bottom1 {
+    width: 100%;
+    overflow: hidden;
+
+    .imgcontainer {
+      display: felx;
+      /* background-color: red; */
+      width: 200px !important;
+      /* padding-inline: 30px; */
+
+      img {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+      }
+
+      h5 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 15.513px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      h6 {
+        color: #acacac;
+        font-family: Poppins;
+        font-size: 11.204px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.224px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 798px) {
+  .mainc {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    .bottom1 {
+      width: 100%;
+      overflow: hidden;
+
+      .imgcontainer {
+        display: felx;
+        /* background-color: red; */
+        width: 200px !important;
+        /* padding-inline: 30px; */
+
+        img {
+          width: 100%;
+          padding-left: 10px;
+          padding-right: 10px;
+          overflow: hidden;
+        }
+
+        h5 {
+          color: #000;
+          font-family: Poppins;
+          font-size: 15.513px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        h6 {
+          color: #acacac;
+          font-family: Poppins;
+          font-size: 11.204px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.224px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
