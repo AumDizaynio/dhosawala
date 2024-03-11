@@ -1,17 +1,18 @@
-.main {
+.mainIC-1 {
 
     width: 100%;
     display: flex;
     align-items: center;
     padding: 0;
     margin-bottom: 0;
+    background: #FCFBEF;
+    padding-bottom: 131px;
 
 
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 135px;
         padding-left: 9.51%;
         padding-right: 10.46%;
 
@@ -67,7 +68,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130.5%;
-                margin-bottom: 18px;
+                padding-bottom: 17px;
                 /* 20.88px */
             }
 
@@ -93,16 +94,107 @@
     }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 900px) {
 
 
-    .main {
+    .mainIC-1 {
 
 
         .container {
             display: flex;
             width: 100%;
             padding: 0;
+            padding-bottom: 0;
+
+
+            .image1 {
+
+                display: none;
+
+            }
+
+            .text {
+
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                align-items: center;
+
+
+
+                h2 {
+                    color: #959595;
+                    font-family: Courgette;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+
+                h1 {
+                    color: #1A750B;
+                    width: 300px;
+                    font-family: Nunito;
+                    font-size: 34px;
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                }
+
+                .image2 {
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    height: auto;
+
+
+                    img {
+                        justify-content: center;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                p {
+
+                    color: #6F6F6F;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130.5%;
+                    width: 100%;
+                    padding-left: 9.51%;
+                    padding-right: 10.46%;
+                    /* 20.88px */
+                }
+
+                .KnowMore {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 798px) {
+
+
+    .mainIC-1 {
+
+
+        .container {
+            display: flex;
+            width: 100%;
+            padding: 0;
+            padding-bottom: 0;
 
 
             .image1 {
@@ -173,7 +265,7 @@
 
                 .KnowMore {
                     width: 100px;
-                }   
+                }
             }
         }
     }
@@ -183,11 +275,14 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------
 
-.main-2 {
+.mainIC-2 {
 
     width: 100%;
     display: flex;
     align-items: center;
+    background: #FCFBEF;
+    margin-bottom: 0;
+    padding-bottom: 131px;
 
     .container {
         display: flex;
@@ -260,15 +355,16 @@
     }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
 
 
-    .main-2 {
+    .mainIC-2 {
 
         .container {
             display: flex;
             width: 100%;
             padding: 0;
+            margin-bottom: 0;
 
 
             .image1 {
@@ -311,7 +407,7 @@
                 .image2 {
                     display: flex;
                     justify-content: center;
-                    width: 100%;
+                    width: 80%;
                     height: auto;
 
                     img {
@@ -335,7 +431,7 @@
                     /* 20.88px */
                 }
 
-                
+
                 .KnowMore {
                     width: 100px;
                 }
@@ -346,11 +442,13 @@
 
 // ------------------------------------------------------------------------------------------------------------
 
-.main-3 {
+.mainIC-3 {
 
     width: 100%;
     display: flex;
     align-items: center;
+    background: #FCFBEF;
+    margin-bottom: 0;
 
     .container {
         display: flex;
@@ -424,15 +522,16 @@
     }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
 
 
-    .main-3 {
+    .mainIC-3 {
 
         .container {
             display: flex;
             width: 100%;
             padding: 0;
+            margin-bottom: 0;
 
 
             .image1 {
@@ -499,7 +598,7 @@
                     /* 20.88px */
                 }
 
-                
+
                 .KnowMore {
                     width: 100px;
                 }

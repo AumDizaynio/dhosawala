@@ -1,14 +1,14 @@
-.main {
+.mainfooter {
 
     width: 100%;
+    padding-left: 5%;
+    padding-right: 10.32%;
 
     .footer {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding: 0 104px;
-
 
 
         .I1,
@@ -64,7 +64,7 @@
 
         .I2 {
 
-            width: 215px;
+            width: 223px;
 
             p {
                 color: #666;
@@ -80,7 +80,7 @@
 
         .I3 {
             list-style-position: inside;
-            width: 215px;
+            width: 160px;
 
             li {
                 color: #666;
@@ -95,7 +95,7 @@
         }
 
         .I4 {
-            width: 215px;
+            width: 122px;
 
             .I4-child {
 
@@ -127,7 +127,7 @@
 
         .I5 {
 
-            width: 215px;
+            width: 264px;
             height: auto;
             object-fit: contain;
 
@@ -148,16 +148,17 @@
 
 
 @media screen and (max-width:900px) {
-    .main {
+    .mainfooter {
 
         width: 100%;
+        padding-left: 5%;
+        padding-right: 10.32%;
 
         .footer {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            padding: 0 104px;
 
 
 
@@ -170,13 +171,15 @@
                 flex-direction: column;
                 gap: 38px;
                 padding: 10px;
+                padding-bottom: 27px;
 
 
             }
 
             .I1 {
 
-                width: 280px;
+                width: 215px;
+
 
                 p {
 
@@ -231,7 +234,7 @@
 
             .I3 {
                 list-style-position: inside;
-                width: 280px;
+                width: 160px;
 
                 li {
                     color: #666;
@@ -240,13 +243,14 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: 240.5%;
+                    white-space: nowrap;
                     /* 33.67px */
                     text-transform: capitalize;
                 }
             }
 
             .I4 {
-                width: 280px;
+                width: 122px;
 
                 .I4-child {
 
@@ -296,14 +300,16 @@
 // -------------------------------------------------------------------------------
 
 @media screen and (max-width:789px) {
-    .main {
+    .mainfooter {
 
         width: 100%;
+        padding-left: 5%;
+        padding-right: 10.32%;
 
         .footer {
             width: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             flex-wrap: wrap;
             padding: 0;
 
@@ -318,13 +324,14 @@
                 padding: 10px;
                 display: flex;
                 justify-content: center;
+                padding-bottom: 27px;
 
 
             }
 
             .I1 {
 
-                width: 60%;
+                width: 215px;
 
                 p {
 
@@ -362,7 +369,7 @@
 
             .I2 {
 
-                width: 60%;
+                width: 250px;
 
                 p {
                     color: #666;
@@ -378,7 +385,7 @@
 
             .I3 {
                 list-style-position: inside;
-                width: 45%;
+                width: 160px;
 
                 li {
                     color: #666;
@@ -393,7 +400,7 @@
             }
 
             .I4 {
-                width: 45%;
+                width: 122px;
 
                 .I4-child {
 
@@ -425,158 +432,7 @@
 
             .I5 {
 
-                width: 253px;
-
-                div {
-
-                    img {
-                        object-fit: contain;
-                        height: auto;
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width:680px) {
-    .main {
-
-        width: 100%;
-
-
-        .footer {
-            width: 100%;
-            display: flex;
-            justify-content: start;
-            flex-wrap: wrap;
-
-
-
-            .I1,
-            .I2,
-            .I3,
-            .I4,
-            .I5 {
-
-
-                display: flex;
-                justify-content: center;
-
-
-            }
-
-            .I1 {
-
-                width: 80%;
-
-
-                p {
-
-                    span {
-                        color: #666;
-                        font-family: Poppins;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 240.5%;
-                        /* 33.67px */
-                        text-transform: capitalize;
-                    }
-
-                    color: #666;
-                    font-family: Poppins;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 240.5%;
-                    text-transform: capitalize;
-                }
-            }
-
-
-
-            .tags {
-                color: #1A750B;
-                font-family: Nunito;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                width: 150px;
-            }
-
-            .I2 {
-
-                width: 80%;
-
-                p {
-                    color: #666;
-                    font-family: Poppins;
-                    font-size: 13px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 240.5%;
-                    /* 33.67px */
-                    text-transform: capitalize;
-                }
-            }
-
-            .I3 {
-                list-style-position: inside;
-                width: 60%;
-
-
-                li {
-                    color: #666;
-                    font-family: Poppins;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 240.5%;
-                    /* 33.67px */
-                    text-transform: capitalize;
-                }
-            }
-
-            .I4 {
-
-                width: 40%;
-                display: flex;
-                justify-content: start;
-
-                .I4-child {
-
-
-                    div {
-                        display: flex;
-
-
-                        p {
-                            display: flex;
-                            
-                            margin-right: 10%;
-                        }
-
-                        span {
-
-                            color: #666;
-                            font-family: Poppins;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 240.5%;
-                            /* 33.67px */
-                            text-transform: capitalize;
-                        }
-                    }
-                }
-            }
-
-            .I5 {
-
-                width: 80%;
+                width: 264px;
 
                 div {
 

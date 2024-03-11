@@ -29,6 +29,8 @@
 
         li {
 
+
+
             color: #FFF;
             font-family: Poppins;
             font-size: 16px;
@@ -37,6 +39,10 @@
             line-height: normal;
             text-transform: capitalize;
             padding-bottom: 5px;
+
+            .link {
+                all: unset;
+            }
 
             &:hover {
                 padding-bottom: 3px;
@@ -55,12 +61,8 @@
 @media screen and (max-width: 789px) {
     .Header {
 
-
-
         ul {
-
             display: none;
-
         }
 
         .menu {

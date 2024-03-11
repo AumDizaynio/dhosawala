@@ -4,13 +4,23 @@ import HomeSlide1 from "../HomeSlide1/HomeSlide1";
 import HomeSlide2 from "../HomeSlide2/HomeSlide2";
 import MenuCard from "../MenuCard/MenuCard";
 import HomeSlide3 from "../HomeSlide3/HomeSlide3";
-import SimpleSlider from "../Slider/Slider";
 import Owner2 from "../../assets/Owner2.png";
 import DhosaThali from "../../assets/DhosaThali.png";
-import Map from "../../assets/Map.png";
-import Slider2 from "../Slider2/Slider2"
+import { useEffect } from "react";
 
 function HomePage() {
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      console.log(window.innerWidth);
+
+      if (window.innerWidth > 768) {
+        console.log("greater");
+      } else {
+        console.log("less");
+      }
+    });
+  }, []);
+
   return (
     <>
       <ImageComponent
@@ -23,6 +33,8 @@ function HomePage() {
         KnowMore="know more "
       />
       <HomeSlide3 />
+
+      
       <MenuCard />
 
       <ImageComponent
@@ -33,15 +45,11 @@ function HomePage() {
         d2="To spread the product across the globe through our chain of retail outlets. Our brand chain special taste makers and ingredients will spread a standard favor of taste all over the country"
         KnowMore="know more "
         disappear={true}
+        id = "franchise"
       />
 
       <HomeSlide1 />
-      {/* <HomeSlide2 /> */}
-
-
-      <div className="image">
-        <img className="map" src={Map} alt="" />
-      </div>
+      <HomeSlide2 />
     </>
   );
 }

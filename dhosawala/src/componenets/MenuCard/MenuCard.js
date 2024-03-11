@@ -6,7 +6,7 @@ import DhosaChef from "../../assets/DhosaChef.png";
 
 const MenuCard = () => {
   return (
-    <div className="mainMC">
+    <div className="mainMC" id="menu">
       <h2>Find About</h2>
       <h1>Our Menu</h1>
       <ul className="MC-ul">

@@ -13,7 +13,6 @@ import Map from "../../assets/Map.png";
 function AboutPage() {
   return (
     <>
-      <Header />
 
       <ImageComponent
         logoImage={logoImage}
@@ -51,11 +50,6 @@ function AboutPage() {
       />
       <AboutSlide2 />
 
-      <div className="image">
-        <img className="map" src={Map} alt="" />
-      </div>
-
-      <Footer />
     </>
   );
 }
