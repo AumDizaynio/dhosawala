@@ -10,10 +10,19 @@
     margin-bottom: 80px;
 
     .logo {
+        background-color: #4CA53E;
+
+        a{
+            all: unset;
+            
+        }
+
+
         svg {
             width: 67.992px;
             height: 71.769px;
-            flex-shrink: 0;
+            background-color: #4CA53E;
+          
         }
     }
 
@@ -24,6 +33,7 @@
         display: flex;
         list-style: none;
         justify-content: space-between;
+        background-color: #4CA53E;
 
 
 
@@ -39,6 +49,7 @@
             line-height: normal;
             text-transform: capitalize;
             padding-bottom: 5px;
+            background-color: #4CA53E;
 
             .link {
                 all: unset;
@@ -55,6 +66,7 @@
 
     .menu {
         display: none;
+        background-color: #4CA53E;
     }
 }
 
