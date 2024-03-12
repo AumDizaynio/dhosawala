@@ -5,6 +5,53 @@ import { Swiggy, Zomato } from "../../icons";
 import DhosaChef from "../../assets/DhosaChef.png";
 
 const MenuCard = () => {
+  const arr1 = [
+    ["Ulundu Vadai", 99],
+    ["Onion Uludu Vadai", 119],
+    ["Rassam Ulundu Vadai", 119],
+    ["Upma", 89],
+  ];
+
+  const arr2 = [
+    ["Saada dosai", 99],
+    ["Mysuru saada dosai", 139],
+    ["Nilgiri saada dosai", 139],
+    ["Palak saada dosai", 139],
+    ["Onion saada dosai", 149],
+    ["Schezwan saada dosai", 149],
+    ["Paper saada dosai", 149],
+    ["Kara mura saada dosai", 149],
+  ];
+
+  const arr3 = [
+    ["Masala dosai", 139],
+    ["Mysuru saada dosai", 149],
+    ["Nilgiri saada dosai", 149],
+    ["Palak saada dosai", 149],
+    ["Onion saada dosai", 159],
+    ["Schezwan Masala dosai", 159],
+    ["Paper saada dosai", 149],
+    ["Kara mura saada dosai", 179],
+  ];
+
+  const arr4 = [
+    ["Rawa Saadaa", 129],
+    ["Rawa Mysuru dosai", 139],
+    ["Rawa Nilgiri dosai", 139],
+    ["Rawa Achari Dosai", 139],
+    ["Rawa Onion dosai", 149],
+    ["Rawa Schezwan dosai", 149],
+    ["Rawa Udupi dosai", 149],
+  ];
+
+  const arr5 = [
+    ["Spring Dosai", 199],
+    ["Corn Dosai", 199],
+    ["Tiranga Dosai", 209],
+    ["Special D/S Dosai", 209],
+    ["Family Dosai(4 FT Long)", 600],
+  ];
+
   return (
     <div className="mainMC" id="menu">
       <h2>Find About</h2>

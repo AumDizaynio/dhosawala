@@ -72,6 +72,11 @@ const Footer = () => {
           </div>
         </ul>
       </div>
+      <div className="line">
+      </div>
+      <p className="p">
+        Copyright © 2021.designed and devloped by <a href="https://dizayn.io/"> dizayn.io</a> All Rights Reserved
+      </p>
     </div>
   );
 };

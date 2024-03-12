@@ -14,6 +14,7 @@ import LeftArw from "./LeftArw";
 import RightArw from "./RightArw";
 import Swiggy from "./Swiggy";
 import Zomato from "./Zomato";
+import Cross from "./Cross";
 
 export {
   Call,
@@ -32,4 +33,5 @@ export {
   RightArw,
   Swiggy,
   Zomato,
+  Cross
 };

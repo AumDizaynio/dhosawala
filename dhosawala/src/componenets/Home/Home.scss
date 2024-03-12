@@ -1,14 +1,18 @@
+
 .Homepg {
-    background-color: #59B54B;
     padding-top: 67px;
     height: 100vh;
     position: relative;
+    background-color: #59B54B;
+    padding-bottom: 200px;
 
     .up {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 70px;
+        background-color: #59B54B;
+        
 
         h1 {
             color: #FFF;
@@ -21,6 +25,7 @@
             /* 90px */
             width: 77.52%;
             max-width: 1059px;
+            background-color: #59B54B;
         }
 
         h2 {
@@ -33,6 +38,8 @@
             line-height: 156.5%;
             /* 28.17px */
             width: 45%;
+            background-color: #59B54B;
+
         }
     }
 
@@ -62,7 +69,7 @@
 
             /* 28.17px */
 
-            &:hover{
+            &:hover {
                 cursor: pointer;
             }
         }
@@ -75,6 +82,12 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
+                background-color: #59B54B;
+                
+
+                img{
+                    padding-bottom: 108px;
+                }
             }
 
             .img1 {
@@ -82,13 +95,17 @@
                 height: auto;
                 position: absolute;
                 left: 0;
-                bottom: -172px;
+                bottom: 0px;
                 z-index: 1;
+                background-color:transparent;
+            
+                
 
                 img {
                     width: 100%;
                     height: auto;
                     object-fit: contain;
+                    background-color: red;
                 }
             }
 
@@ -98,14 +115,18 @@
                 position: absolute;
                 right: 0;
                 z-index: 1;
-                bottom: -172px;
+                bottom: 0px;
+                background-color:transparent;
 
                 img {
                     width: 100%;
                     height: auto;
                     object-fit: contain;
+                    
                 }
             }
         }
     }
+
+
 }

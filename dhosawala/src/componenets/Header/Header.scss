@@ -1,84 +1,134 @@
-.Header {
-    display: flex;
-    width: 100%;
-    background-color: #4CA53E;
-    justify-content: space-between;
-    height: 114px;
-    align-items: center;
-    padding-left: 9.88%;
-    padding-right: 10.10%;
-    margin-bottom: 80px;
-
-    .logo {
-        background-color: #4CA53E;
-
-        a{
-            all: unset;
-            
-        }
-
-
-        svg {
-            width: 67.992px;
-            height: 71.769px;
-            background-color: #4CA53E;
-          
-        }
-    }
-
-
-    ul {
-        width: 43%;
-        // max-width: 468px ;
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        background-color: #4CA53E;
-
-
-
-        li {
-
-
-
-            color: #FFF;
-            font-family: Poppins;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-transform: capitalize;
-            padding-bottom: 5px;
-            background-color: #4CA53E;
-
-            .link {
-                all: unset;
-            }
-
-            &:hover {
-                padding-bottom: 3px;
-                border-bottom: 2px solid white;
-
-
-            }
-        }
-    }
-
-    .menu {
-        display: none;
-        background-color: #4CA53E;
-    }
-}
-
-@media screen and (max-width: 789px) {
+.hd {
     .Header {
+        display: flex;
+        width: 100%;
+        background-color: #4CA53E;
+        justify-content: space-between;
+        height: 114px;
+        align-items: center;
+        padding-left: 9.88%;
+        padding-right: 10.10%;
+
+
+        .logo {
+            background-color: #4CA53E;
+
+            a {
+                all: unset;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+            }
+
+
+            svg {
+                width: 67.992px;
+                height: 71.769px;
+                background-color: #4CA53E;
+
+            }
+        }
+
 
         ul {
-            display: none;
+            width: 43%;
+            // max-width: 468px ;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            background-color: #4CA53E;
+
+
+
+            li {
+
+
+
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: capitalize;
+                padding-bottom: 5px;
+                background-color: #4CA53E;
+                white-space: nowrap;
+
+                .link {
+                    all: unset;
+                }
+
+                &:hover {
+                    padding-bottom: 3px;
+                    border-bottom: 2px solid white;
+                    cursor: pointer;
+
+                }
+            }
         }
 
         .menu {
-            display: flex;
+            display: none;
+            background-color: #4A7851;
+        }
+    }
+
+}
+
+@media screen and (max-width: 789px) {
+    .hd {
+        .Header {
+
+            ul {
+                display: none;
+                background-color: #4CA53E;
+            }
+
+            .menu {
+                display: flex;
+                background-color: #4CA53E;
+
+                svg {
+                    background-color: #4CA53E;
+                }
+            }
+        }
+
+        .list {
+            background: #134D0A;
+            height: 327px;
+            width: 100%;
+            padding-inline: 16.67%;
+            padding-top: 63px;
+            position: absolute;
+            z-index: 1;
+
+
+            .listi {
+
+                all: unset;
+
+                p {
+                    color: #FCFBEF;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: capitalize;
+                    padding-top: 17px;
+                }
+            }
+
+            hr {
+                width: 100%;
+                height: 1px;
+                background-color: #4A7851;
+            }
+
         }
     }
 }

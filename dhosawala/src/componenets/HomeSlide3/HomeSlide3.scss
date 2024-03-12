@@ -35,21 +35,20 @@
     .btm {
         display: flex;
         align-items: center;
+        gap: 2%;
         width: 100%;
-        gap: 1.5%;
-        justify-content: space-between;
+        justify-content: center;
 
         .SimpleSlider {
             width: 47.87%;
+
         }
 
         .bottom2 {
 
             width: 44.21%;
 
-
             img {
-                max-width: 604px;
                 width: 100%;
             }
         }
@@ -101,9 +100,7 @@
             justify-content: space-between;
             overflow: hidden;
 
-            .ss {
-                background-color: red;
-            }
+            .ss {}
 
             .bottom2 {
 
@@ -127,11 +124,11 @@
 
     .mainHS3 {
 
-        margin-bottom: 180px;
+        margin-bottom: 0;
         background-color: #FCFBEF;
-        ;
         margin-left: 0;
         margin-right: 0;
+        padding-bottom: 79px;
 
         .top {
 

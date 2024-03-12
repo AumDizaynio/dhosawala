@@ -4,7 +4,8 @@
     justify-content: space-between;
     padding-left: 9.51%;
     padding-right: 10.51%;
-    margin-bottom: 98px;
+    padding-bottom: 98px;
+    background: #FCFBEF;
 
 
     .left {
@@ -59,10 +60,11 @@
             font-weight: 400;
             line-height: 139%;
             margin-bottom: 37px;
-            
-            p{
+
+            p {
                 padding-left: 21px;
             }
+
             /* 19.46px */
         }
     }
@@ -95,7 +97,7 @@
     .main {
         display: flex;
         flex-direction: column;
-        gap: 43px;
+        gap: 0;
         justify-content: space-between;
         padding-left: 0;
         padding-right: 0;
@@ -135,7 +137,7 @@
 
             .mail,
             .phone {
-              
+
                 padding-left: 5.8%;
                 padding-right: 5.8%;
                 margin-bottom: 16px;

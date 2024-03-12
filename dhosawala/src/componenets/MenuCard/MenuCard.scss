@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 9.51%;
-    padding-right: 10.51%;
-    margin-bottom: 172px;
+    padding-bottom: 172px;
+    background-color: #FCFBEF;
 
     h2 {
         color: #9E9E9E;
@@ -33,6 +32,8 @@
         list-style: none;
         width: 56.86%;
         justify-content: space-between;
+        margin-bottom: 78px;
+
 
         li {
             color: #7C7C7C;
@@ -44,7 +45,7 @@
             line-height: normal;
             text-transform: uppercase;
             height: 21px;
-            margin-bottom: 78px;
+
 
 
             &:hover {
@@ -58,9 +59,11 @@
     .divlast {
 
         display: flex;
-        gap: 12.36%;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
+        padding-left: 21%;
+        padding-right: 15.81%;
+
 
 
         .left {
@@ -68,6 +71,8 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            height: 263px;
+            padding-right: 10px;
 
             .li {
                 display: flex;
@@ -112,7 +117,8 @@
         }
 
         .dhosa {
-            width: 32%;
+            width: 45%;
+            height: auto;
             object-fit: contain;
         }
     }
@@ -152,12 +158,6 @@
 
         .divlast {
 
-            display: flex;
-            gap: 12.36%;
-            justify-content: center;
-            width: 100%;
-
-
             .left {
                 width: 312px;
                 display: flex;
@@ -190,7 +190,8 @@
     .mainMC {
         padding-left: 0;
         padding-right: 0;
-        margin-bottom: 47px;
+        margin-bottom: 0;
+        padding-bottom: 20px;
 
         h2 {}
 
@@ -203,7 +204,7 @@
             gap: 65px;
             padding-left: 5.55%;
             padding-right: 4.34%;
-            overflow: hidden;
+            overflow: scroll;
 
             li {
                 min-width: 101px;

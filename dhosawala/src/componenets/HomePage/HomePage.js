@@ -5,26 +5,29 @@ import HomeSlide2 from "../HomeSlide2/HomeSlide2";
 import MenuCard from "../MenuCard/MenuCard";
 import HomeSlide3 from "../HomeSlide3/HomeSlide3";
 import Owner2 from "../../assets/Owner2.png";
+import Owner from "../../assets/Owner.png";
 import DhosaThali from "../../assets/DhosaThali.png";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function HomePage() {
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      console.log(window.innerWidth);
+  const [mobpreview, setmobPreview] = useState(true);
 
-      if (window.innerWidth > 768) {
-        console.log("greater");
-      } else {
-        console.log("less");
-      }
-    });
-  }, []);
+  const actualWidth = () => {
+    if (window.innerWidth < 798) {
+      setmobPreview(false);
+    } else {
+      setmobPreview(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", actualWidth);
+  });
 
   return (
     <>
       <ImageComponent
-        logoImage={Owner2}
+        logoImage={mobpreview ? Owner2 : Owner}
         knowus="Know Us"
         titlecolor={true}
         title="Our Story"
@@ -34,18 +37,17 @@ function HomePage() {
       />
       <HomeSlide3 />
 
-      
       <MenuCard />
 
       <ImageComponent
-        logoImage={DhosaThali}
+        logoImage={mobpreview && DhosaThali}
         knowus="Vision and Growth"
         title="A Winning Franchise Team"
         d1="Dosawala strives to provide its customers, the healthiest and wholesome meal at a very affordable prices and to generate profits for the benefit of the franchise in a short duration of time. Dosawala dedicate to ensure the success of our franchisee associates by focussing and providing exclusive support and service on committed environment"
         d2="To spread the product across the globe through our chain of retail outlets. Our brand chain special taste makers and ingredients will spread a standard favor of taste all over the country"
         KnowMore="know more "
         disappear={true}
-        id = "franchise"
+        id="franchise"
       />
 
       <HomeSlide1 />
