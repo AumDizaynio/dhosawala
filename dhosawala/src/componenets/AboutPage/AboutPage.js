@@ -15,6 +15,7 @@ function AboutPage() {
     <>
 
       <ImageComponent
+      
         logoImage={logoImage}
         knowus="Know Us"
         title="About Dosawala"

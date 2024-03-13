@@ -148,7 +148,7 @@
         margin-bottom: 10px;
         height: 1px;
         background: #BCBCBC;
-        
+
     }
 
     .p {
@@ -159,7 +159,7 @@
         font-weight: 400;
         line-height: normal;
         text-align: center;
-        
+
 
         a {
             all: unset;
@@ -325,8 +325,8 @@
                 }
             }
         }
-        
-      
+
+
     }
 }
 
@@ -342,11 +342,9 @@
         .footer {
             width: 100%;
             display: flex;
-            justify-content: space-around;
+            justify-content: start;
             flex-wrap: wrap;
             padding: 0;
-
-
 
             .I1,
             .I2,

@@ -3,6 +3,7 @@ import "./MenuCard.scss";
 import Dhosa from "../../assets/Dhosa.png";
 import { Swiggy, Zomato } from "../../icons";
 import DhosaChef from "../../assets/DhosaChef.png";
+import { useState } from "react";
 
 const MenuCard = () => {
   const arr1 = [
@@ -52,59 +53,60 @@ const MenuCard = () => {
     ["Family Dosai(4 FT Long)", 600],
   ];
 
+  const [Menu, setMenu] = useState(arr1);
+
   return (
     <div className="mainMC" id="menu">
       <h2>Find About</h2>
       <h1>Our Menu</h1>
       <ul className="MC-ul">
-        <li>Vadai & upma</li>
-        <li>Classic</li>
-        <li>Premium</li>
-        <li>Supreme</li>
-        <li>Signature</li>
+        <li
+          onClick={() => {
+            setMenu(arr1);
+          }}
+        >
+          Vadai & upma
+        </li>
+        <li
+          onClick={() => {
+            setMenu(arr2);
+          }}
+        >
+          Classic
+        </li>
+        <li
+          onClick={() => {
+            setMenu(arr3);
+          }}
+        >
+          Premium
+        </li>
+        <li
+          onClick={() => {
+            setMenu(arr4);
+          }}
+        >
+          Supreme
+        </li>
+        <li
+          onClick={() => {
+            setMenu(arr5);
+          }}
+        >
+          Signature
+        </li>
       </ul>
       <div className="divlast">
         <div className="left">
-          <div className="li">
-            <h6 className="H6-1">saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">99</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">mysuru saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">139</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">nilgiri saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">139</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">palak saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">139</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">online saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">149</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">schezwan saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">149</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">paper saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">149</h6>
-          </div>
-          <div className="li">
-            <h6 className="H6-1">karamura saada dosai</h6>
-            <p></p>
-            <h6 className="H6-2">149</h6>
-          </div>
+          {Menu.map((a) => {
+            return (
+              <div className="li">
+                <h6 className="H6-1">{a[0]}</h6>
+                <p></p>
+                <h6 className="H6-2">{a[1]}</h6>
+              </div>
+            );
+          })}
         </div>
         <img className="dhosa" src={Dhosa} alt="" />
       </div>
