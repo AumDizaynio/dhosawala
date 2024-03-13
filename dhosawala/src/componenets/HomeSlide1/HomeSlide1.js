@@ -1,13 +1,11 @@
 import "./HomeSlide1.scss";
 import { GrayCall, GrayMail } from "../../icons";
 import Cafe from "../../assets/Cafe.png";
-import { useState , useEffect } from "react";
-import Cafe2 from "../../assets/Cafe2.png"
+import { useState, useEffect } from "react";
+import Cafe2 from "../../assets/Cafe2.png";
 
 const HomeSlide = () => {
-
-
-  const [cafeimg, setCafeimg] = useState("cafe")
+  const [cafeimg, setCafeimg] = useState("cafe");
 
   const actualWidth = () => {
     if (window.innerWidth < 798) {
