@@ -1,4 +1,4 @@
-import "./AboutPage.css";
+import "./AboutPage.scss";
 import Header from "../Header/Header";
 import ImageComponent from "../ImageComponent/ImageComponent";
 import AboutSlide from "../AboutSlide/AboutSlide";

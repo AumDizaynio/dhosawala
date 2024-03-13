@@ -1,4 +1,4 @@
-import "./HomePage.css";
+import "./HomePage.scss";
 import ImageComponent from "../ImageComponent/ImageComponent";
 import HomeSlide1 from "../HomeSlide1/HomeSlide1";
 import HomeSlide2 from "../HomeSlide2/HomeSlide2";
