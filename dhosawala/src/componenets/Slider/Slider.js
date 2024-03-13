@@ -8,12 +8,14 @@ import Image2 from "../../assets/Image2.png";
 import Image3 from "../../assets/Image3.png";
 
 export default function SimpleSlider() {
+  
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: true,
   };
   return (
     <div className="mainc">

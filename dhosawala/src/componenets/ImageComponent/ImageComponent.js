@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ImageComponent.scss";
 import { GreaterArrow } from "../../icons";
+import { useState } from "react";
 
 const ImageComponent = (props) => {
   const arr = [1, 2, 3];
+
+  const [display, setDisplay] = useState(true);
+
+  const actualWidth = () => {
+    if (window.innerWidth < 798) {
+      setDisplay(false);
+    } else {
+      setDisplay(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", actualWidth);
+  });
 
   return (
     <div className={props.reverse ? "mainIC-2" : "mainIC-1"} id={props.id}>
@@ -12,7 +27,7 @@ const ImageComponent = (props) => {
           <img src={props.logoImage} alt="" />
         </div>
         <div className="text">
-          <h2>{props.knowus}</h2>
+          {display && <h2>{props.knowus}</h2>}
           <h1>{props.title}</h1>
           <div className="image2">
             <img src={props.logoImage} alt="" />

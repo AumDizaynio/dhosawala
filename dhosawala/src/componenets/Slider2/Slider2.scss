@@ -1,3 +1,26 @@
+.slick-prev {
+    background-color: gray !important;
+    left: -4% !important;
+
+    &::before{
+      color: gray;
+      background-color: #FCFBEF;
+      opacity: 1;
+    }
+
+  }
+  
+  .slick-next {
+    background-color: gray !important;
+    left: 100% !important;
+
+    &::before{
+      color: gray;
+      background-color: #FCFBEF;
+      opacity: 1;
+    }
+  }  
+
 .mains2 {
     width: 100%;
 

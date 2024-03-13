@@ -8,6 +8,18 @@
     width: 100%;
     overflow: hidden;
 
+    .slick-prev {
+      background-color: red !important;
+      position: absolute !important;
+      left: -4% !important;
+      z-index: 100;
+    }
+    
+    .slick-next {
+      background-color: gray !important;
+      left: 100% !important;
+    }  
+
     .imgcontainer {
       display: felx;
       /* background-color: red; */
@@ -46,6 +58,7 @@
     }
   }
 }
+
 @media screen and (max-width: 798px) {
   .mainc {
     width: 600px;
