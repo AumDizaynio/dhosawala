@@ -9,16 +9,29 @@
     overflow: hidden;
 
     .slick-prev {
-      background-color: red !important;
+
       position: absolute !important;
-      left: -4% !important;
-      z-index: 100;
+      left: 1.8% !important;
+      z-index: 100 !important;
+      color: white !important;
+      // background-color: white !important;
+
+
+      &::before {
+        background-color: transparent;
+      }
+
     }
-    
+
     .slick-next {
-      background-color: gray !important;
-      left: 100% !important;
-    }  
+      left: 95% !important;
+
+      &::before {
+        // color: gray;
+        background-color: transparent;
+
+      }
+    }
 
     .imgcontainer {
       display: felx;

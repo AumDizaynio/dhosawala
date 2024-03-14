@@ -281,7 +281,9 @@
                     width: 100%;
 
                     .KnowMore {
-                        width: 160px;
+                        // width: 160px;
+                        white-space: nowrap;
+                        padding-right: 78px;
                     }
                 }
             }
@@ -550,9 +552,12 @@
                 }
 
 
-                .KnowMore {
-                    width: 100px;
-                }
+
+            }
+
+            .KnowMore {
+                // width: 100px;
+                padding-left: 100px;
             }
         }
     }

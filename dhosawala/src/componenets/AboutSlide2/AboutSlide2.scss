@@ -179,7 +179,7 @@
             display: flex;
             width: 100%;
             flex-direction: column;
-            padding-inline: 12.56%;
+            padding-inline: 0;
 
 
             h1 {
@@ -192,12 +192,15 @@
                 line-height: normal;
                 text-transform: capitalize;
                 width: 100%;
+                padding-inline: 5%;
+               
             }
 
             .leftl {
                 display: flex;
                 flex-direction: column;
                 gap: 36px;
+                padding-inline: 12.56%; 
 
                 .l1,
                 .l2 {
