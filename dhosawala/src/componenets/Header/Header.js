@@ -24,7 +24,7 @@ const Header = () => {
         <ul>
           <li>
             <Link className="link" to="/about">
-              About US
+              About Us
             </Link>
           </li>
           <li>
@@ -39,7 +39,7 @@ const Header = () => {
           </li>
           <li>
             <HashLink className="link" to="/#contactus">
-              Contact US
+              Contact Us
             </HashLink>
           </li>
         </ul>

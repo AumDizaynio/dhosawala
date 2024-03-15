@@ -26,7 +26,6 @@ function App() {
   return (
     <>
       <Header />
-      {display && <Home />}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/About" element={<AboutPage />} />

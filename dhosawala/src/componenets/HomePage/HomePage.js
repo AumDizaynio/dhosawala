@@ -8,6 +8,7 @@ import Owner2 from "../../assets/Owner2.png";
 import Owner from "../../assets/Owner.png";
 import DhosaThali from "../../assets/DhosaThali.png";
 import { useEffect, useState } from "react";
+import Home from "../Home/Home";
 
 function HomePage() {
   const [mobpreview, setmobPreview] = useState(true);
@@ -26,6 +27,7 @@ function HomePage() {
 
   return (
     <>
+      <Home />
       <ImageComponent
         logoImage={mobpreview ? Owner2 : Owner}
         knowus="Know Us"

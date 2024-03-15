@@ -123,6 +123,7 @@
                     box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.10);
                     height: 46px;
                     max-width: 310px;
+                    min-width: 290px;
                     align-items: center;
                     padding-left: 24px;
                 }
@@ -193,14 +194,15 @@
                 text-transform: capitalize;
                 width: 100%;
                 padding-inline: 5%;
-               
+
             }
 
             .leftl {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 gap: 36px;
-                padding-inline: 12.56%; 
+                padding-inline: 12.56%;
 
                 .l1,
                 .l2 {
@@ -211,6 +213,7 @@
                     box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.10);
                     height: 46px;
                     max-width: 310px;
+                    min-width: 310px;
                     align-items: center;
                     padding-left: 24px;
                 }

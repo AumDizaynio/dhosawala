@@ -13,7 +13,9 @@ import Map from "../../assets/Map.png";
 function AboutPage() {
   return (
     <>
-
+      <div className="bk">
+        
+      </div>
       <ImageComponent
       
         logoImage={logoImage}

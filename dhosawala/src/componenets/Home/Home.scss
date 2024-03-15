@@ -18,7 +18,7 @@ div {
                 color: #FFF;
                 text-align: center;
                 font-family: Poppins;
-                font-size: clamp(55px,1vw,72px);
+                font-size: clamp(55px, 1vw, 72px);
                 font-style: normal;
                 font-weight: 700;
                 line-height: 125%;
@@ -52,30 +52,43 @@ div {
             background-color: #59B54B;
 
 
-
-            button {
-                border-radius: 52px;
-                border: 2px solid #FFF;
-                width: 222px;
-                height: 44px;
-                color: #FFF;
-                text-align: center;
-                font-family: Poppins;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 156.5%;
-                background-color: #59B54B;
-
-                /* 28.17px */
-
-                &:hover {
-                    cursor: pointer;
-                }
-            }
-
             .imgs {
                 width: 100%;
+
+                div {
+
+                    a {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                        button {
+                            border-radius: 52px;
+                            border: 2px solid #FFF;
+                            width: 222px;
+                            height: 44px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 156.5%;
+                            background-color: #59B54B;
+                            position: absolute;
+                            z-index: 1000;
+                            bottom: 57%;
+
+
+                            /* 28.17px */
+
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
 
                 .design {
                     width: 100%;
@@ -83,7 +96,7 @@ div {
                     left: 0;
                     bottom: 0;
                     background-color: #59B54B;
-
+                    height: 50vh;
 
                     img {
                         padding-bottom: 108px;
@@ -145,20 +158,20 @@ div {
             position: relative;
             background-color: #59B54B;
             padding-bottom: 200px;
-    
+
             .up {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 padding-bottom: 20px;
                 background-color: #59B54B;
-    
-    
+
+
                 h1 {
                     color: #FFF;
                     text-align: center;
                     font-family: Poppins;
-                    font-size: clamp(55px,1vw,72px);
+                    font-size: clamp(55px, 1vw, 72px);
                     font-style: normal;
                     font-weight: 700;
                     line-height: 125%;
@@ -167,7 +180,7 @@ div {
                     // max-width: 1059px;
                     background-color: #59B54B;
                 }
-    
+
                 h2 {
                     color: #F9F9F9;
                     text-align: center;
@@ -179,15 +192,15 @@ div {
                     /* 28.17px */
                     background-color: #59B54B;
                     white-space: nowrap;
-    
+
                 }
             }
-    
+
             .down {
                 display: flex;
                 width: 100%;
                 background-color: #59B54B;
-    
+
                 button {
                     border-radius: 52px;
                     border: 2px solid #FFF;
@@ -201,30 +214,30 @@ div {
                     font-weight: 500;
                     line-height: 156.5%;
                     background-color: #59B54B;
-    
+
                     /* 28.17px */
-    
+
                     &:hover {
                         cursor: pointer;
                     }
                 }
-    
+
                 .imgs {
                     width: 100%;
-    
+
                     .design {
                         width: 100%;
                         position: absolute;
                         left: 0;
                         bottom: 0;
                         background-color: #59B54B;
-    
-    
+
+
                         img {
                             padding-bottom: 108px;
                         }
                     }
-    
+
                     .img1 {
                         width: 30%;
                         height: auto;
@@ -234,9 +247,9 @@ div {
                         bottom: 0px;
                         z-index: 1;
                         background-color: transparent;
-    
-    
-    
+
+
+
                         img {
                             width: 100%;
                             height: auto;
@@ -244,7 +257,7 @@ div {
                             background-color: red;
                         }
                     }
-    
+
                     .img2 {
                         width: 32%;
                         height: auto;
@@ -254,23 +267,32 @@ div {
                         z-index: 1;
                         bottom: 0px;
                         background-color: transparent;
-    
+
                         img {
                             width: 100%;
                             height: auto;
                             object-fit: contain;
-    
+
                         }
                     }
                 }
             }
-    
-    
+
+
         }
-    
+
         .space {
             background: #FCFBEF;
             height: 200px;
+        }
+    }
+}
+
+
+@media screen and (max-width:798px) {
+    div {
+        .Homepg {
+            display: none;
         }
     }
 }

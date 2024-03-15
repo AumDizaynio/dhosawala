@@ -14,10 +14,12 @@ const Home = () => {
           <h2>Introducing first time ever! Unlimited South Indian Meal</h2>
         </div>
         <div className="down">
-          <HashLink to="/#menu">
-            <button>See Menu</button>
-          </HashLink>
           <div className="imgs">
+            <div>
+              <HashLink to="/#menu">
+                <button>See Menu</button>
+              </HashLink>
+            </div>
             <img className="design" src={Design} alt="" srcset="" />
             <img className="img1" src={dosa1} alt="" srcset="" />
             <img className="img2" src={dosa2} alt="" srcset="" />

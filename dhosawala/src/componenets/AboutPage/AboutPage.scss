@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 
+  .bk {
+    height: 80px;
+    background-color: #FCFBEF;
+  }
+
   .image {
     display: flex;
     justify-content: center;
     padding-bottom: 90px;
+
     .map {
       width: 100%;
       max-width: 1230px;
@@ -16,4 +22,14 @@
       padding-right: 2%;
     }
   }
+}
+
+
+@media screen and (max-width:798px) {
+
+  .bk {
+    height: 45px;
+    background-color: #FCFBEF;
+  }
+
 }
